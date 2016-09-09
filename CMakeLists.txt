@@ -1,4 +1,4 @@
-add_library(sdl2gfx
+add_library(SDL2_gfx
         SDL2_rotozoom.c
         SDL2_framerate.c
         SDL2_framerate.h
