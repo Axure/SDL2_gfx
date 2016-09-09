@@ -12,4 +12,4 @@ add_library(SDL2_gfx
 
 find_package(SDL2 REQUIRED)
 include_directories(${SDL2_INCLUDE_DIRS})
-target_link_libraries(sdl2gfx ${SDL2_LIBRARIES})
+target_link_libraries(SDL2_gfx ${SDL2_LIBRARIES})
