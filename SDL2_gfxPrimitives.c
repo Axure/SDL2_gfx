@@ -2466,7 +2466,7 @@ int polygonColor(SDL_Renderer * renderer, const Sint16 * vx, const Sint16 * vy, 
 
 \returns Returns 0 on success, -1 on failure.
 */
-int polygon(SDL_Renderer * renderer, const Sint16 * vx, const Sint16 * vy, int n)
+int SDL_polygon(SDL_Renderer *renderer, const Sint16 *vx, const Sint16 *vy, int n)
 {
 	/*
 	* Draw 
@@ -2575,7 +2575,7 @@ int polygonRGBA(SDL_Renderer * renderer, const Sint16 * vx, const Sint16 * vy, i
 	/*
 	* Draw 
 	*/
-	result |= polygon(renderer, vx, vy, n);
+	result |= SDL_polygon(renderer, vx, vy, n);
 
 	return (result);
 }
